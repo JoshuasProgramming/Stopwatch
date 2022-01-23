@@ -1,0 +1,68 @@
+body{
+    background: skyblue;
+}
+
+.container{
+    width:750px;
+    height:420px;
+    background: #5f9ea0;
+    margin:75px 310px;
+    box-shadow: 1px 1px 8px black;
+    border-radius: 25px;
+}
+
+.output-area{
+    margin: -10px 141px;
+    font-family:Tahoma, sans-serif;
+    font-size:55px;
+    font-weight: bold;
+    padding: 41px;
+    letter-spacing: 3px;
+}
+
+.start-btn, .stop-btn, .reset-btn{
+    margin:-2000px 43px;
+    border:none;
+    border:3px solid black;
+    font-family:Tahoma, sans-serif;
+    font-size:25px;
+    width:155px;
+    border-radius: 20px;
+    letter-spacing: 5px;
+    opacity: 85%;
+    font-weight: bold;
+}
+
+.start-btn:hover{
+    opacity:100%;
+    cursor: pointer;
+}
+
+.stop-btn:hover{
+    opacity:100%;
+    cursor: pointer;
+}
+
+.reset-btn:hover{
+    opacity:100%;
+    cursor: pointer;
+}
+
+.start-btn:active{
+    box-shadow: 1px 1px 6px black;
+}
+
+.stop-btn:active{
+    box-shadow: 1px 1px 6px black;
+}
+
+
+.reset-btn:active{
+    box-shadow: 1px 1px 6px black;
+}
+
+h1{
+    text-align: center;
+    font-size:50px;
+    font-family:Tahoma, sans-serif;
+}
